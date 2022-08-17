@@ -1,5 +1,5 @@
 //
-//  PubliserTests.swift
+//  PublisherTests.swift
 //  DictionaryCoder Tests macOS
 //
 //  Created by Jason Jobe on 8/5/22.
@@ -10,11 +10,7 @@ import XCTest
 import Combine
 @testable import DictionaryCoder
 
-extension DictionaryDecoder: TopLevelDecoder {
-    
-}
-
-class PubliserTests: XCTestCase {
+class PublisherTests: XCTestCase {
 
     private(set) var decoder: DictionaryDecoder!
 

@@ -1,6 +1,7 @@
 import Foundation
+import Combine
 
-public final class DictionaryDecoder {
+public final class DictionaryDecoder: TopLevelDecoder {
 
     // MARK: - Type Properties
 
